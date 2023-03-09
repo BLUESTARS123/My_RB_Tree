@@ -12,8 +12,19 @@ int main()
 	{
 		my_rb_tree->insert(a[i]);
 	}
+    my_rb_tree->fls();
+    std::cout<<"----------"<<std::endl;
+    int b[] = {15};
+	for (size_t i = 0; i < sizeof(b) / sizeof(b[0]); i++)
+	{   
+		std::cout<<my_rb_tree->erase_unique_key(b[i])<<std::endl;
+        
+	}
     //层序遍历，打印节点
     my_rb_tree->fls();
-    std::cout << "Isbalance---->" <<my_rb_tree->Isbalance()<< std::endl;
+    if(my_rb_tree->Isbalance())
+        std::cout << "Isbalance---->" <<"YES"<< std::endl;
+    else
+         std::cout << "Isbalance---->" <<"NO"<< std::endl;
     return 0;
 }
