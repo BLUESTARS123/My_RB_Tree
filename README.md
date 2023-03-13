@@ -10,7 +10,7 @@
 1. 红黑树的插入
 2. 红黑树删除
 2. 层序遍历打印输出
-3. 红黑树的测试
+3. 红黑树的判定
 
 待进行：
 ----------------
@@ -22,4 +22,4 @@
 
 1. 《STL源码剖析》
 2.  https://github.com/Alinshans/MyTinySTL
-3.  测试用例：https://www.freesion.com/article/50181180357/
+3.  测试：https://www.freesion.com/article/50181180357/
